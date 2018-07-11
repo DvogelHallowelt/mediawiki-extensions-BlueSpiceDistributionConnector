@@ -67,6 +67,7 @@ class BlueSpiceDistributionHooks {
 			'name' => 'categorytree',
 			'desc' => wfMessage( 'bs-distribution-tag-categorytree-desc' )->plain(),
 			'code' => '<categorytree>Top_Level</categorytree>',
+			'mwvecommand' => 'categoryTreeCommand',
 			'examples' => array(
 				array(
 					'code' => '<categorytree mode=pages>Manual</categorytree>'
